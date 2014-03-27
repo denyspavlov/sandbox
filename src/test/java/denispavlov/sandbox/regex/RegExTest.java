@@ -14,6 +14,9 @@ import static org.junit.Assert.assertEquals;
  */
 public class RegExTest {
 
+    /**
+     * Messing around with negative look ahead and look behind
+     */
     String ensureNoAssignmentsUsed(final String expression) {
 
         final Pattern noNewLinesPattern = Pattern.compile("(\\s*)([=><]+)(\\s*)", Pattern.MULTILINE);
